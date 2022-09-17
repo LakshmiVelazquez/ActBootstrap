@@ -1,0 +1,53 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    fount-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*=================Menu=================*/
+#menu li > a{
+    font-size:18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+
+/*=================slider de imagenes=================*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/*=================Media para pantalla chica=================*/
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+           }
+}
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+/*=================FORMULARIO=================*/    
+#contenedor-formulario {
+    position:absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
